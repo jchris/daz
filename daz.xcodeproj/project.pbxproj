@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		797C508E1426756B00118A7D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 797C508D1426756B00118A7D /* UIKit.framework */; };
+		797C50901426756B00118A7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 797C508F1426756B00118A7D /* Foundation.framework */; };
+		797C50921426756B00118A7D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 797C50911426756B00118A7D /* CoreGraphics.framework */; };
+		797C50981426756C00118A7D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 797C50961426756C00118A7D /* InfoPlist.strings */; };
+		797C509A1426756C00118A7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 797C50991426756C00118A7D /* main.m */; };
+		797C509E1426756C00118A7D /* DazAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 797C509D1426756C00118A7D /* DazAppDelegate.m */; };
+		797C50A11426756C00118A7D /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797C509F1426756C00118A7D /* MainStoryboard_iPhone.storyboard */; };
+		797C50A41426756C00118A7D /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797C50A21426756C00118A7D /* MainStoryboard_iPad.storyboard */; };
+		797C50A71426756C00118A7D /* DazViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 797C50A61426756C00118A7D /* DazViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		797C50891426756B00118A7D /* daz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = daz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		797C508D1426756B00118A7D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		797C508F1426756B00118A7D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		797C50911426756B00118A7D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		797C50951426756C00118A7D /* daz-Info.plist */ = {isa = PBXFileReference; path = "daz-Info.plist"; sourceTree = "<group>"; };
+		797C50971426756C00118A7D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		797C50991426756C00118A7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		797C509B1426756C00118A7D /* daz-Prefix.pch */ = {isa = PBXFileReference; path = "daz-Prefix.pch"; sourceTree = "<group>"; };
+		797C509C1426756C00118A7D /* DazAppDelegate.h */ = {isa = PBXFileReference; path = DazAppDelegate.h; sourceTree = "<group>"; };
+		797C509D1426756C00118A7D /* DazAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DazAppDelegate.m; sourceTree = "<group>"; };
+		797C50A01426756C00118A7D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		797C50A31426756C00118A7D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		797C50A51426756C00118A7D /* DazViewController.h */ = {isa = PBXFileReference; path = DazViewController.h; sourceTree = "<group>"; };
+		797C50A61426756C00118A7D /* DazViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DazViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		797C50861426756B00118A7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				797C508E1426756B00118A7D /* UIKit.framework in Frameworks */,
+				797C50901426756B00118A7D /* Foundation.framework in Frameworks */,
+				797C50921426756B00118A7D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		797C507E1426756B00118A7D = {
+			isa = PBXGroup;
+			children = (
+				797C50931426756B00118A7D /* daz */,
+				797C508C1426756B00118A7D /* Frameworks */,
+				797C508A1426756B00118A7D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		797C508A1426756B00118A7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				797C50891426756B00118A7D /* daz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		797C508C1426756B00118A7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				797C508D1426756B00118A7D /* UIKit.framework */,
+				797C508F1426756B00118A7D /* Foundation.framework */,
+				797C50911426756B00118A7D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		797C50931426756B00118A7D /* daz */ = {
+			isa = PBXGroup;
+			children = (
+				797C509C1426756C00118A7D /* DazAppDelegate.h */,
+				797C509D1426756C00118A7D /* DazAppDelegate.m */,
+				797C509F1426756C00118A7D /* MainStoryboard_iPhone.storyboard */,
+				797C50A21426756C00118A7D /* MainStoryboard_iPad.storyboard */,
+				797C50A51426756C00118A7D /* DazViewController.h */,
+				797C50A61426756C00118A7D /* DazViewController.m */,
+				797C50941426756C00118A7D /* Supporting Files */,
+			);
+			path = daz;
+			sourceTree = "<group>";
+		};
+		797C50941426756C00118A7D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				797C50951426756C00118A7D /* daz-Info.plist */,
+				797C50961426756C00118A7D /* InfoPlist.strings */,
+				797C50991426756C00118A7D /* main.m */,
+				797C509B1426756C00118A7D /* daz-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		797C50881426756B00118A7D /* daz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 797C50AA1426756C00118A7D /* Build configuration list for PBXNativeTarget "daz" */;
+			buildPhases = (
+				797C50851426756B00118A7D /* Sources */,
+				797C50861426756B00118A7D /* Frameworks */,
+				797C50871426756B00118A7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = daz;
+			productName = daz;
+			productReference = 797C50891426756B00118A7D /* daz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		797C50801426756B00118A7D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 797C50831426756B00118A7D /* Build configuration list for PBXProject "daz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 797C507E1426756B00118A7D;
+			productRefGroup = 797C508A1426756B00118A7D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				797C50881426756B00118A7D /* daz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		797C50871426756B00118A7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				797C50981426756C00118A7D /* InfoPlist.strings in Resources */,
+				797C50A11426756C00118A7D /* MainStoryboard_iPhone.storyboard in Resources */,
+				797C50A41426756C00118A7D /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		797C50851426756B00118A7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				797C509A1426756C00118A7D /* main.m in Sources */,
+				797C509E1426756C00118A7D /* DazAppDelegate.m in Sources */,
+				797C50A71426756C00118A7D /* DazViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		797C50961426756C00118A7D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				797C50971426756C00118A7D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		797C509F1426756C00118A7D /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				797C50A01426756C00118A7D /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		797C50A21426756C00118A7D /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				797C50A31426756C00118A7D /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		797C50A81426756C00118A7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		797C50A91426756C00118A7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		797C50AB1426756C00118A7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "daz/daz-Prefix.pch";
+				INFOPLIST_FILE = "daz/daz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		797C50AC1426756C00118A7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "daz/daz-Prefix.pch";
+				INFOPLIST_FILE = "daz/daz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		797C50831426756B00118A7D /* Build configuration list for PBXProject "daz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				797C50A81426756C00118A7D /* Debug */,
+				797C50A91426756C00118A7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		797C50AA1426756C00118A7D /* Build configuration list for PBXNativeTarget "daz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				797C50AB1426756C00118A7D /* Debug */,
+				797C50AC1426756C00118A7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 797C50801426756B00118A7D /* Project object */;
+}
