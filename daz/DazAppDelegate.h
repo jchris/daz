@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Couchbase/CouchbaseMobile.h>
 
-@interface DazAppDelegate : UIResponder <UIApplicationDelegate>
+@interface DazAppDelegate : UIResponder <UIApplicationDelegate, CouchbaseDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

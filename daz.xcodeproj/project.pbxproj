@@ -16,6 +16,11 @@
 		797C50A11426756C00118A7D /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797C509F1426756C00118A7D /* MainStoryboard_iPhone.storyboard */; };
 		797C50A41426756C00118A7D /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797C50A21426756C00118A7D /* MainStoryboard_iPad.storyboard */; };
 		797C50A71426756C00118A7D /* DazViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 797C50A61426756C00118A7D /* DazViewController.m */; };
+		797C50AE1426759D00118A7D /* Couchbase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 797C50AD1426759D00118A7D /* Couchbase.framework */; };
+		797C50B11426762300118A7D /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 797C50B01426762300118A7D /* libstdc++.dylib */; };
+		797C50C91426778B00118A7D /* app.ini in Resources */ = {isa = PBXBuildFile; fileRef = 797C50C81426778B00118A7D /* app.ini */; };
+		79E463F3142BBA9200EF320F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E463F2142BBA9200EF320F /* libz.dylib */; };
+		79E463F6142BBADE00EF320F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E463F5142BBADE00EF320F /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +28,21 @@
 		797C508D1426756B00118A7D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		797C508F1426756B00118A7D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		797C50911426756B00118A7D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		797C50951426756C00118A7D /* daz-Info.plist */ = {isa = PBXFileReference; path = "daz-Info.plist"; sourceTree = "<group>"; };
+		797C50951426756C00118A7D /* daz-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "daz-Info.plist"; sourceTree = "<group>"; };
 		797C50971426756C00118A7D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		797C50991426756C00118A7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		797C509B1426756C00118A7D /* daz-Prefix.pch */ = {isa = PBXFileReference; path = "daz-Prefix.pch"; sourceTree = "<group>"; };
-		797C509C1426756C00118A7D /* DazAppDelegate.h */ = {isa = PBXFileReference; path = DazAppDelegate.h; sourceTree = "<group>"; };
+		797C509B1426756C00118A7D /* daz-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "daz-Prefix.pch"; sourceTree = "<group>"; };
+		797C509C1426756C00118A7D /* DazAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DazAppDelegate.h; sourceTree = "<group>"; };
 		797C509D1426756C00118A7D /* DazAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DazAppDelegate.m; sourceTree = "<group>"; };
 		797C50A01426756C00118A7D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		797C50A31426756C00118A7D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		797C50A51426756C00118A7D /* DazViewController.h */ = {isa = PBXFileReference; path = DazViewController.h; sourceTree = "<group>"; };
+		797C50A51426756C00118A7D /* DazViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DazViewController.h; sourceTree = "<group>"; };
 		797C50A61426756C00118A7D /* DazViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DazViewController.m; sourceTree = "<group>"; };
+		797C50AD1426759D00118A7D /* Couchbase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Couchbase.framework; path = Frameworks/Couchbase.framework; sourceTree = "<group>"; };
+		797C50B01426762300118A7D /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		797C50C81426778B00118A7D /* app.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = app.ini; sourceTree = "<group>"; };
+		79E463F2142BBA9200EF320F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		79E463F5142BBADE00EF320F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,9 +50,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79E463F6142BBADE00EF320F /* Security.framework in Frameworks */,
+				79E463F3142BBA9200EF320F /* libz.dylib in Frameworks */,
+				797C50B11426762300118A7D /* libstdc++.dylib in Frameworks */,
 				797C508E1426756B00118A7D /* UIKit.framework in Frameworks */,
 				797C50901426756B00118A7D /* Foundation.framework in Frameworks */,
 				797C50921426756B00118A7D /* CoreGraphics.framework in Frameworks */,
+				797C50AE1426759D00118A7D /* Couchbase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +66,9 @@
 		797C507E1426756B00118A7D = {
 			isa = PBXGroup;
 			children = (
+				79E463F5142BBADE00EF320F /* Security.framework */,
+				79E463F2142BBA9200EF320F /* libz.dylib */,
+				797C50B01426762300118A7D /* libstdc++.dylib */,
 				797C50931426756B00118A7D /* daz */,
 				797C508C1426756B00118A7D /* Frameworks */,
 				797C508A1426756B00118A7D /* Products */,
@@ -69,6 +86,7 @@
 		797C508C1426756B00118A7D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				797C50AD1426759D00118A7D /* Couchbase.framework */,
 				797C508D1426756B00118A7D /* UIKit.framework */,
 				797C508F1426756B00118A7D /* Foundation.framework */,
 				797C50911426756B00118A7D /* CoreGraphics.framework */,
@@ -94,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				797C50951426756C00118A7D /* daz-Info.plist */,
+				797C50C81426778B00118A7D /* app.ini */,
 				797C50961426756C00118A7D /* InfoPlist.strings */,
 				797C50991426756C00118A7D /* main.m */,
 				797C509B1426756C00118A7D /* daz-Prefix.pch */,
@@ -111,6 +130,7 @@
 				797C50851426756B00118A7D /* Sources */,
 				797C50861426756B00118A7D /* Frameworks */,
 				797C50871426756B00118A7D /* Resources */,
+				797C50AF142675F800118A7D /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -154,10 +174,27 @@
 				797C50981426756C00118A7D /* InfoPlist.strings in Resources */,
 				797C50A11426756C00118A7D /* MainStoryboard_iPhone.storyboard in Resources */,
 				797C50A41426756C00118A7D /* MainStoryboard_iPad.storyboard in Resources */,
+				797C50C91426778B00118A7D /* app.ini in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		797C50AF142675F800118A7D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "rsync -a \"${SRCROOT}/Frameworks/Couchbase.framework/CouchbaseResources\" \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		797C50851426756B00118A7D /* Sources */ = {
@@ -250,6 +287,10 @@
 		797C50AB1426756C00118A7D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "daz/daz-Prefix.pch";
 				INFOPLIST_FILE = "daz/daz-Info.plist";
@@ -261,6 +302,10 @@
 		797C50AC1426756C00118A7D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "daz/daz-Prefix.pch";
 				INFOPLIST_FILE = "daz/daz-Info.plist";
@@ -288,6 +333,7 @@
 				797C50AC1426756C00118A7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

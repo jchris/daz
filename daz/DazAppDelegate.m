@@ -15,9 +15,24 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    CouchbaseMobile* cb = [[CouchbaseMobile alloc] init];
+    cb.delegate = self;
+    NSString* iniPath = [[NSBundle mainBundle] pathForResource: @"app" ofType: @"ini"];
+    if (iniPath) {
+        NSLog(@"Registering custom .ini file %@", iniPath);
+        cb.iniFilePath = iniPath;
+    }
+    NSAssert([cb start], @"Couchbase didn't start! Error = %@", cb.error);
     return YES;
 }
 							
+-(void)couchbaseMobile:(CouchbaseMobile*)couchbase didStart:(NSURL*)serverURL {
+    NSLog(@"Couchbase is Ready, go! %@", serverURL); 
+}
+-(void)couchbaseMobile:(CouchbaseMobile*)couchbase failedToStart:(NSError*)error {
+    NSAssert(NO, @"Couchbase failed to initialize: %@", error); 
+}
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     /*
